@@ -1,0 +1,65 @@
+body{
+    background-image: url("pic.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    
+}
+.flex >div{
+    background-color:crimson;
+    margin: 10px;
+    font-size: 30px;
+    align-items: center;
+    font-size:60px;
+    border-radius: 10px ;
+    
+    text-align: center;
+}
+.f{
+    text-align: center;
+    font-size: 70px;
+    margin-top:220px;
+    color:rgb(246, 250, 7);
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow:2px 2px 8px black
+
+}
+.l{
+    width:140px;
+    height:140px;
+    padding-top:8px;
+}
+.night{
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    body {
+      background-image: url("pic.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+      overflow-x: hidden;
+    }
+  .flex{
+      flex-direction: column;
+      align-items: center;
+  }
+  .f{
+      text-align: center;
+      margin-top: 30px;
+      font-size:60px;
+  }
+    
+  }
